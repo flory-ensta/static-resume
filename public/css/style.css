@@ -11,16 +11,18 @@
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+    body {
+        font-size: 1rem !important;
+    }
 }
 
 body {
     padding-top: 5rem;
-    font-family: 'Averta',
-        'Helvetica Neue',
-        'Open Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
     color: #223464;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.75rem;
 }
 
 .starter-template {
@@ -110,4 +112,5 @@ h3 {
 
 .experience {
     background-color: rgb(211, 211, 211);
+    padding: 2%;
 }
