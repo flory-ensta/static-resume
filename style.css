@@ -15,6 +15,12 @@
 
 body {
     padding-top: 5rem;
+    font-family: 'Averta',
+        'Helvetica Neue',
+        'Open Sans',
+        Arial,
+        sans-serif;
+    color: #223464;
 }
 
 .starter-template {
@@ -41,7 +47,7 @@ body {
 
 .title-article {
     padding-left: 5%;
-    color: #007bff;
+    color: #223464;
 }
 
 article {
@@ -50,4 +56,58 @@ article {
 
 div {
     text-align: justify;
+}
+
+.title {
+    line-height: 1.33;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    font-size: 48px;
+}
+
+nav {
+    background-color: white;
+    font-size: 25px;
+}
+
+.lead {
+    padding: 0 10%;
+}
+
+.list-group-item.active {
+    background-color: #223464;
+    border-color: #223464;
+}
+
+figure {
+    text-align: center;
+}
+
+.row.vcentered {
+    display: flex;
+    align-items: center;
+}
+
+div.progress {
+    margin: 0;
+}
+
+h2 {
+    margin: 5%;
+    text-align: center;
+}
+
+h3 {
+    margin: 5%;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-offset-2 {
+        margin-left: 16%;
+    }
+}
+
+.experience {
+    background-color: rgb(211, 211, 211);
 }
