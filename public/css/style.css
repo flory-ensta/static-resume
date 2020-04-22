@@ -12,8 +12,21 @@
         font-size: 3.5rem;
     }
     body {
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        display: none;
+    }
+    .monitor {
+        display: none;
+    }
+}
+
+.about-me {
+    margin: auto;
 }
 
 body {
@@ -43,7 +56,7 @@ body {
 }
 
 .main {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 5%;
 }
 
@@ -76,6 +89,56 @@ nav {
     padding: 0 10%;
 }
 
+.monitor {
+    background-image: url(../images/monitor.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    color: white;
+    padding: 100px;
+}
+
+.monitor p {
+    text-align: center;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 2.5s steps(30, end), blink-caret .5s;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 300px;
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white
+    }
+}
+
 .list-group-item.active {
     background-color: #223464;
     border-color: #223464;
@@ -95,7 +158,7 @@ div.progress {
 }
 
 h2 {
-    margin: 5%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -113,4 +176,57 @@ h3 {
 .experience {
     background-color: rgb(211, 211, 211);
     padding: 2%;
+}
+
+.parallax {
+    /* Full height */
+    /* height: 100%; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+@media(min-width: 1200px) {
+    .languages {
+        margin-top: 50px;
+    }
+}
+
+#bars {
+    margin-top: 5%;
+}
+
+.collapse-section {
+    color: #223464;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.form {
+    margin: 0% 20% 0% 20%;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-top: 5%;
 }

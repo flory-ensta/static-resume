@@ -4,80 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Contact</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
-            <svg class="bi bi-person-lines-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                    d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm7 1.5a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zm-2-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm2 9a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5z"
-                    clip-rule="evenodd" />
-            </svg>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">My Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="goals.html">My Goals</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact Me <span class="sr-only">(current)</span></a>
-                </li>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <svg class="bi bi-person-lines-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm7 1.5a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zm-2-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm2 9a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">My Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">My Work</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Me <span class="sr-only">(current)</span></a>
+                    </li>
 
-    <main role="main" class="container">
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <main role="main">
         <div class="starter-template">
-            <h1>Bootstrap starter template</h1>
-            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text
-                and a mostly barebones HTML document.</p>
+            <h1>Contact me right now !</h1>
+            <p class="lead">You can contact me for any reason through this form ! I'm always glad to hear from you and try to respond as quick as I can so don't hesitate sending a message.</p>
         </div>
+        <div id="parallax" class="parallax" style="background-image: url('public/images/contact.jpg');min-height: 300px;"></div>
 
-        <div>
-            <ul>
-                <li>Sidebar: photo, basic info</li>
-                <li>studies</li>
-                <li>experiences / internships</li>
-                <li>skills</li>
-                <li>services i can provide</li>
+        <section class="form">
+            <form action="">
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip01">First name</label>
+                        <input type="text" class="form-control shadow p-3 mb-5 bg-white rounded" id="validationTooltip01" value="" placeholder="John" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip02">Last name</label>
+                        <input type="text" class="form-control shadow p-3 mb-5 bg-white rounded" id="validationTooltip02" value="" placeholder="Doe" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="form-group col-md-8 col-12">
+                        <label for="exampleFormControlInput1">Your mail address</label>
+                        <input type="email" class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleInputEmail1" placeholder="john.doe@domain.com" aria-describedby="emailHelp">
+                        <p class="description">This is only required to identify in further discussions, we will not share your personnal information nor will we use it for any commercial intent.</p>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <label for="reason-form">Reason for contact</label>
+                        <select class="custom-select shadow mb-5 bg-white rounded" id="reason-form">
+                            <option selected>Select a reason</option>
+                            <option value="1">You just want more info</option>
+                            <option value="2">You want to talk about a project</option>
+                            <option value="3">You want to hire me</option>
+                            <option value="4">You don't have any special reason ;)</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12">
+                        <label for="exampleFormControlTextarea1">Your message</label>
+                        <textarea class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+                    </div>
 
-            </ul>
-        </div>
+                    <button type="submit" class="btn btn-outline-success shadow p-3 mb-5 bg-white rounded">Send message</button>
 
+            </form>
+        </section>
     </main>
 
+    <footer class="footer mt-auto py-3">
+        <div class="container" style="text-align: center;">
+            <span class="text-muted">Website developed by Me &copy;IN211 <a href="https://github.com/flory-ensta"
+                    target="_blank"><img src="public/images/github.png"></a></span>
+        </div>
+    </footer>
+
     <!-- Bootstrap CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="public/js/script.js"></script>
 </body>
 
 </html>
