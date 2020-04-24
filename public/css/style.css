@@ -230,3 +230,20 @@ textarea {
 .form {
     margin-top: 5%;
 }
+
+.toast {
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 10%;
+    bottom: 30px;
+    max-width: 80%;
+    /* 30px from the bottom */
+}
+
+@media(min-width: 1200px) {
+    .figure-caption {
+        font-size: 60%;
+    }
+}
